@@ -11,4 +11,4 @@ logLevel = select, "info", "off", "error", "warn", "debug", "all", tag=日志级
 hostname = api-app.wangpaiyixue.cn, api-app-v2.wangpaiyixue.cn, api-eva.wangpaiyixue.cn
 
 [Script]
-http-response ^https?:\/\/api-(app(-v2)?|eva)\.wangpaiyixue\.cn\/v\d+\/(common\/ac|goods\/(detail|lists|section_info)|video\/vid_token|(chapter|exam|paper|question|knowledge)\/) requires-body=true, max-size=-1, timeout=20, tag=王派医学, script-path=https://raw.githubusercontent.com/Yu9191/wpyx/main/wpyx.js, argument=worker=https://wpyx-unlock.lovebabyforever.workers.dev&logLevel={{{logLevel}}}
+http-response ^https?:\/\/api-(app(-v2)?|eva)\.wangpaiyixue\.cn\/v\d+\/(common\/ac|goods\/(detail|lists|section_info)|video\/vid_token|lesson\/(details|lists)|(chapter|exam|paper|question|knowledge)\/) requires-body=true, max-size=-1, timeout=20, tag=王派医学, script-path=https://raw.githubusercontent.com/Yu9191/wpyx/main/wpyx.js, argument=worker=https://wpyx-unlock.lovebabyforever.workers.dev&logLevel={{{logLevel}}}
