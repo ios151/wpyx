@@ -5,13 +5,13 @@
 
 ## 模块/插件订阅
 
-- Surge: `https://raw.githubusercontent.com/Yu9191/wpyx/main/modules/wpyx.sgmodule`
-- Loon : `https://raw.githubusercontent.com/Yu9191/wpyx/main/modules/wpyx.lpx`
-- QX   : `https://raw.githubusercontent.com/Yu9191/wpyx/main/modules/wpyx.conf`
+- Surge: `https://raw.githubusercontent.com/ios151/wpyx/main/modules/wpyx.sgmodule`
+- Loon : `https://raw.githubusercontent.com/ios151/wpyx/main/modules/wpyx.lpx`
+- QX   : `https://raw.githubusercontent.com/ios151/wpyx/main/modules/wpyx.conf`
 
 脚本 (一般不直接用):
 ```
-https://raw.githubusercontent.com/Yu9191/wpyx/main/wpyx.js
+https://raw.githubusercontent.com/ios151/wpyx/main/wpyx.js
 ```
 
 Worker:

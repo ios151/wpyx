@@ -3,7 +3,7 @@
 #!author = @ios151
 #!system = ios
 #!category = 王派医学
-#!icon = https://raw.githubusercontent.com/Yu9191/-/main/wpyx.png
+#!icon = https://raw.githubusercontent.com/ios151/-/main/wpyx.png
 #!arguments = 日志级别:info
 #!arguments-desc = 日志级别: off / error / warn / info(默认) / debug / all
 
@@ -11,4 +11,4 @@
 hostname = %APPEND% api-app.wangpaiyixue.cn, api-app-v2.wangpaiyixue.cn, api-eva.wangpaiyixue.cn
 
 [Script]
-WPYX-Response = type=http-response, pattern=^https?:\/\/api-(app(-v2)?|eva)\.wangpaiyixue\.cn\/v\d+\/(common\/ac|goods\/(detail|lists|section_info)|video\/vid_token|lesson\/(details|lists)|(chapter|exam|paper|question|knowledge)\/), requires-body=1, max-size=-1, requires-original-body=1, timeout=20, script-path=https://raw.githubusercontent.com/Yu9191/wpyx/main/wpyx.js, argument=logLevel={{{日志级别}}}&worker=https://wpyx-unlock.lovebabyforever.workers.dev
+WPYX-Response = type=http-response, pattern=^https?:\/\/api-(app(-v2)?|eva)\.wangpaiyixue\.cn\/v\d+\/(common\/ac|goods\/(detail|lists|section_info)|video\/vid_token|lesson\/(details|lists)|(chapter|exam|paper|question|knowledge)\/), requires-body=1, max-size=-1, requires-original-body=1, timeout=20, script-path=https://raw.githubusercontent.com/ios151/wpyx/main/wpyx.js, argument=logLevel={{{日志级别}}}&worker=https://wpyx-unlock.lovebabyforever.workers.dev
